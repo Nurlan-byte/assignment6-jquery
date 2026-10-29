@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 1 · jQuery Basics</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a class="brand" href="index.html">Assignment 6 · jQuery</a>
+    <a href="index.html">Home</a>
+    <a href="part1.html" class="active">Part 1. Basics</a>
+    <a href="part2.html">Part 2. Effects</a>
+    <a href="part3.html">Part 3. DOM</a>
+    <a href="part4.html">Part 4. Animations</a>
+    <a href="part5.html">Part 5. Project</a>
+  </nav>
+
+  <main>
+    <h1>Part 1. Getting Started with jQuery</h1>
+
+    <div class="task">
+      <h2>Task 0. Setup</h2>
+      <p>jQuery is included from a CDN. Open the console (<strong>F12 → Console</strong>)
+        to see the message <em>"jQuery is ready!"</em>.</p>
+      <p id="status">Waiting for jQuery...</p>
+    </div>
+
+    <div class="task">
+      <h2>Task 1. Selectors &amp; CSS</h2>
+      <h3 id="title">Title selected by ID</h3>
+      <p class="info">Paragraph 1 selected by class</p>
+      <p class="info">Paragraph 2 selected by class</p>
+      <span>Span selected by tag</span>
+      <br><br>
+      <button id="textBtn">Change with .text()</button>
+      <button id="htmlBtn">Change with .html()</button>
+      <button id="cssBtn">Change with .css()</button>
+    </div>
+  </main>
+
+  <footer>Yussupov Nurlan · SE-2526 · Web Technologies 1</footer>
+
+  <!-- jQuery from CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/part1.js"></script>
+</body>
+</html>
