@@ -15,4 +15,30 @@ $(document).ready(function () {
   $("#basicResetBtn").click(function () {
     $("#box1").stop().css(start);
   });
+
+  // Task 9. Sequential Animations
+  // Animations on the same element run one after another (queue)
+  $("#seqBtn").click(function () {
+    $("#box2")
+      .animate({ left: "250px" }, 800)                  // 1. move right
+      .animate({ top: "90px" }, 800)                    // 2. move down
+      .animate({ width: "30px", height: "30px" }, 800)  // 3. shrink
+      .animate(start, 800);                             // 4. return to original
+  });
+
+  // Task 10. Combined Animation
+  // Opacity, size and movement change at the same time
+  $("#comboBtn").click(function () {
+    $("#box3").animate({
+      opacity: 0.3,
+      width: "100px",
+      height: "100px",
+      left: "250px",
+      top: "50px"
+    }, 1500);
+  });
+
+  $("#comboResetBtn").click(function () {
+    $("#box3").stop().css(start);
+  });
 });
