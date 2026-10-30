@@ -93,3 +93,23 @@ footer {
   color: #666;
   padding: 16px;
 }
+
+/* ===== Part 2. Effects ===== */
+.img-box {
+  height: 210px;
+  margin-top: 10px;
+}
+
+#panelTitle {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0769ad;
+  color: #fff;
+  cursor: pointer;
+}
+
+#panel {
+  display: none; /* the panel is closed at the start */
+  padding: 20px;
+  background-color: #e6f1fa;
+}
