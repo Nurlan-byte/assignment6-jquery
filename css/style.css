@@ -124,3 +124,21 @@ footer {
   background-color: #e6f1fa;
   border-radius: 4px;
 }
+
+/* ===== Part 4. Animations ===== */
+.stage {
+  position: relative; /* boxes move inside this area */
+  height: 180px;
+  margin-top: 10px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.box {
+  position: absolute; /* needed for left / top animation */
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #0769ad;
+}
