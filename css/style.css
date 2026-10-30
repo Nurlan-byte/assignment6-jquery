@@ -113,3 +113,14 @@ footer {
   padding: 20px;
   background-color: #e6f1fa;
 }
+
+/* ===== Part 3. DOM Manipulation ===== */
+#changeImg {
+  width: 300px;
+}
+
+.output {
+  padding: 10px 16px;
+  background-color: #e6f1fa;
+  border-radius: 4px;
+}
