@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 5 · Accordion Menu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a class="brand" href="index.html">Assignment 6 · jQuery</a>
+    <a href="index.html">Home</a>
+    <a href="part1.html">Part 1. Basics</a>
+    <a href="part2.html">Part 2. Effects</a>
+    <a href="part3.html">Part 3. DOM</a>
+    <a href="part4.html">Part 4. Animations</a>
+    <a href="part5.html" class="active">Part 5. Project</a>
+  </nav>
+
+  <main>
+    <h1>Part 5. Mini Project</h1>
+
+    <div class="task">
+      <h2>Task 11. Accordion Menu</h2>
+      <p class="hint">Click a section title. Only one section is open at a time.</p>
+
+      <div class="accordion">
+        <div class="acc-title">What is jQuery? <span class="sign">+</span></div>
+        <div class="acc-content">
+          jQuery is a small JavaScript library. It makes it easy to select elements,
+          handle events and create effects and animations.
+        </div>
+
+        <div class="acc-title">How to include jQuery? <span class="sign">+</span></div>
+        <div class="acc-content">
+          Add a &lt;script&gt; tag with a link to the jQuery file from a CDN, for example
+          <code>https://code.jquery.com/jquery-3.7.1.min.js</code>.
+        </div>
+
+        <div class="acc-title">What are jQuery effects? <span class="sign">+</span></div>
+        <div class="acc-content">
+          Effects are ready methods like <code>.hide()</code>, <code>.fadeIn()</code>
+          and <code>.slideToggle()</code>.
+        </div>
+
+        <div class="acc-title">What does .animate() do? <span class="sign">+</span></div>
+        <div class="acc-content">
+          <code>.animate()</code> changes CSS properties with numbers (width, left,
+          opacity...) smoothly over time.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>Yussupov Nurlan · SE-2526 · Web Technologies 1</footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/part5.js"></script>
+</body>
+</html>
